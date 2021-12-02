@@ -1,0 +1,47 @@
+heroku login
+git init
+heroku git:remote -a <app-name>
+heroku create -b https://github.com/mars/create-react-app-buildpack.git
+git add .
+git commit -am "my first commit"
+git push heroku master
+git push heroku main
+
+git------
+echo "# hello" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Iamwebwarrior/hello.git
+git push -u origin main
+
+
+soluitoon---
+git show-ref  ---> 
+git push origin HEAD:main
+git push --force origin master
+git push heroku main //imp
+
+
+solution for hiroku--
+git config --global
+
+solution for github--
+git config --local user.email "iamwebwarrior@gmail.com"
+git config --local user.name "iamwebwarrior"
+git remote set-url origin https://xxx:xxx@xxx.xxx.xxx/xxx/xxx.git
+# git pull origin master
+git add deploy/pom.xml
+git commit -m "jenkins push code to git"
+git push origin master
+
+git remote set-url origin https://github.com/Iamwebwarrior/porfolio.git
+
+
+
+git push origin HEAD:main
+
+
+git push -u heroku master
+git push -u origin master
